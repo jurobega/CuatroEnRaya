@@ -13,12 +13,12 @@ public record Jugador(String nombre, Ficha colorFichas) {
         Objects.requireNonNull(nombre,"El nombre no puede ser nulo.");
     }
 
-    private void validarColor(Ficha colorFicha) {
-        Objects.requireNonNull(colorFicha,"La ficha no puede ser nula.");
+    private void validarColor(Ficha colorFichas) {
+        Objects.requireNonNull(colorFichas,"La ficha no puede ser nula.");
     }
 
     @Override
     public String toString() {
-        return String.format("%s, %s]", nombre, colorFichas);
+        return String.format("[%s, %s]", nombre, colorFichas);
     }
 }
