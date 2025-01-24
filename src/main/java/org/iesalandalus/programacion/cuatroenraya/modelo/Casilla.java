@@ -37,7 +37,7 @@ public class Casilla {
         if (estaOcupado()){
             stringResultado = String.format("%s",this.ficha);
         }else {
-            stringResultado = String.format(" ");
+            stringResultado = String.format("%s"," ");
         }
         return String.format("%s",stringResultado);
     }
