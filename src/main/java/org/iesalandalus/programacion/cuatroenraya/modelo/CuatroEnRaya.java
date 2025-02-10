@@ -2,7 +2,6 @@ package org.iesalandalus.programacion.cuatroenraya.modelo;
 
 import org.iesalandalus.programacion.cuatroenraya.vista.Consola;
 
-import javax.naming.OperationNotSupportedException;
 import java.util.Objects;
 
 public class CuatroEnRaya {
