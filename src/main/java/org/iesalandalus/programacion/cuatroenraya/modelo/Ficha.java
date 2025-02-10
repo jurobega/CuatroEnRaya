@@ -6,7 +6,7 @@ public enum Ficha {
 
     @Override
     public String toString() {
-       return String.format("%c", name().charAt(0));
+       return String.format("%s", name().charAt(0));
     }
 
 }
